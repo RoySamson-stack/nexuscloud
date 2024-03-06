@@ -26,7 +26,6 @@ function Services() {
         </p>
       </section>
 
-      {/* Add more services as needed */}
   </div>
    
     </div>
