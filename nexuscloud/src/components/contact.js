@@ -1,12 +1,21 @@
 import React from 'react';
+import './contact.css'; // Import your CSS file for styling
 
 function Contact() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to My React Homepage</h1>
-        <p>This is a simple React homepage example.</p>
-      </header>
+    <div className="contact-container">
+      <div className='contact-sqaures'>
+      <div className="square square1"></div>
+      <div className="square square2">
+        <div className='circle'>
+          
+        </div>
+      </div>
+      <div className="square square3">
+        <p>Nexus cloud</p>
+      </div>
+      </div>
+      
     </div>
   );
 }

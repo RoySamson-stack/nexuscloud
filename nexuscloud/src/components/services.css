@@ -1,30 +1,43 @@
 /* services.css */
 
 .services-container {
-    text-align: center;
-    margin: 20px auto;
-    max-width: 900px;
-  }
-  
-  .service-sections{
-    display: flex;
-    justify-content: space-evenly;
-  }
+  text-align: center;
+  color: #fff; /* Adjust the color as needed */
+  background-color: #0c0032;
+  /* margin: 20px auto; */
+  height: 500px;
+  padding: 20px;
+}
+
+.service-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr)); /* Adjust the width as needed */
+  gap: 20px; /* Adjust the gap between columns */
+}
+
+.service-section {
+  background-color: #282828;
+  padding: 10px;
+  justify-content: center;
+}
+
+.service-subsection {
+  margin-top: 10px;
+}
+
+.service-title {
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin-bottom: 20px; /* Add space between the title and the sections below */
+}
+
+.service-description {
+  margin-top: 10px;
+}
+
+/* Add a media query for responsiveness */
+@media (max-width: 768px) {
   .service-section {
-    width: 100%;
-    text-align: left;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
+    width: 100%; /* Full width on smaller screens */
   }
-  
-  .service-title {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  .service-description {
-    margin-bottom: 20px;
-  }
-  
-  
+}
